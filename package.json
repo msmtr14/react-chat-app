@@ -1,15 +1,20 @@
 {
-  "name": "chat-app",
+  "name": "react-chat-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "dev": "node server.js",
-    "build": "next build",
-    "start": "NODE_ENV=production node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": "10.x"
   },
   "keywords": [],
+  "scripts": {
+    "dev": "concurrently \"npm run build\" \"npm run server\"",
+    "server": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build && npm run dev"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -24,5 +29,9 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "sentiment": "^5.0.1"
+  },
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "concurrently": "^4.1.0"
   }
 }
