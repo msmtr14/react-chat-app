@@ -1,5 +1,3 @@
-/* components/Chat.js */
-    
     import React, { Component, Fragment } from 'react';
     import axios from 'axios';
     import Pusher from 'pusher-js';
@@ -48,7 +46,7 @@ handleKeyUp = evt => {
       
       if (evt.keyCode === 13 && !evt.shiftKey) {
         const { activeUser: user } = this.props;
-        const chat = { user, message: value, timestamp: +new Date };
+        const chat = { user, message: value, timestamp: + new Date };
         
         evt.target.value = '';
         axios.post('/message', chat);
@@ -62,8 +60,6 @@ handleKeyUp = evt => {
           <h2 className="text-dark mb-0 mx-4 px-2">{this.props.activeUser}</h2>
         </div>
 
-          {/** CHAT HEADER HERE **/}
-    
     <div className="px-4 pb-4 w-100 d-flex flex-row flex-wrap align-items-start align-content-start position-relative" style={{ height: 'calc(100% - 180px)', overflowY: 'scroll' }}>
     
       {this.state.chats.map((chat, index) => {

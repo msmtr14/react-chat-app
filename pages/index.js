@@ -36,7 +36,7 @@
             
               <div className="row position-absolute w-100 h-100">
               
-                <section className="col-md-8 d-flex flex-row flex-wrap align-items-center align-content-center px-5">
+                <section className="col-md-4 d-flex flex-row flex-wrap align-items-center align-content-center px-5">
                   <div className="px-5 mx-5">
                   
                     <span className="d-block w-100 h1 text-light" style={{marginTop: -50}}>
@@ -54,7 +54,7 @@
                   </div>
                 </section>
                 
-                 <section className="col-md-4 position-relative d-flex flex-wrap h-100 align-items-start align-content-between bg-white px-0">
+                 <section className="col-md-8 position-relative d-flex flex-wrap h-100 align-items-start align-content-between bg-white px-0">
       { user && <Chat activeUser={user} /> }
 
     </section>
