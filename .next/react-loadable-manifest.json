@@ -7,7 +7,7 @@
       "publicPath": "static/chunks/commons.7b8decbdbe94cc3c1163.js"
     }
   ],
-  "../modules/_core": [
+  "../../modules/_core": [
     {
       "id": 1,
       "name": "./node_modules/core-js/library/modules/_core.js",
@@ -303,7 +303,7 @@
       "publicPath": "static/chunks/commons.7b8decbdbe94cc3c1163.js"
     }
   ],
-  "@babel/runtime-corejs2/core-js/object/define-property": [
+  "../core-js/object/define-property": [
     {
       "id": 39,
       "name": "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js",
@@ -439,7 +439,7 @@
       "publicPath": "static/chunks/commons.7b8decbdbe94cc3c1163.js"
     }
   ],
-  "../../modules/_wks-ext": [
+  "./_wks-ext": [
     {
       "id": 56,
       "name": "./node_modules/core-js/library/modules/_wks-ext.js",
@@ -565,7 +565,7 @@
       "publicPath": "static/chunks/commons.7b8decbdbe94cc3c1163.js"
     }
   ],
-  "@babel/runtime-corejs2/helpers/typeof": [
+  "../helpers/typeof": [
     {
       "id": 71,
       "name": "./node_modules/@babel/runtime-corejs2/helpers/typeof.js",
@@ -597,7 +597,7 @@
       "publicPath": "static/chunks/commons.7b8decbdbe94cc3c1163.js"
     }
   ],
-  "@babel/runtime-corejs2/helpers/assertThisInitialized": [
+  "./assertThisInitialized": [
     {
       "id": 75,
       "name": "./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js",
