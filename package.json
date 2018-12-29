@@ -16,7 +16,6 @@
     "express"
   ],
   "scripts": {
-    "heroku-prebuild": "NPM_CONFIG_PRODUCTION=false npm run build",
     "start": "NODE_ENV=production node server.js",
     "dev": "concurrently \"npm run build\" \"npm run server\"",
     "server": "node server.js",
