@@ -1,9 +1,10 @@
 # react-chat-app
 
-#install npm
+# Install npm dependencies
 npm install
 
-#build app
+# Build Application
 npm run build
 
+# Live Demo
 https://reactchatapplication.heroku.com
