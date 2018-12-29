@@ -1,0 +1,57 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "external \"react\"": 0,
+      "external \"axios\"": 1,
+      "external \"next/head\"": 2,
+      "external \"pusher-js\"": 3,
+      "multi ./pages/index.js": 4,
+      "multi node_modules/next/dist/pages/_app.js": 5,
+      "node_modules/next/dist/pages/_app.js": 6,
+      "external \"next/app\"": 7,
+      "multi node_modules/next/dist/pages/_error.js": 8,
+      "node_modules/next/dist/pages/_error.js": 9,
+      "external \"next/error\"": 10,
+      "multi node_modules/next/dist/pages/_document.js": 11,
+      "node_modules/next/dist/pages/_document.js": 12,
+      "external \"next/document\"": 13,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/index.js a5f0d9e264551218907a919f307f6a7a": 14
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/5oZrkjGX5bgbpwI35Ccur/pages/index.js": 0,
+      "static/5oZrkjGX5bgbpwI35Ccur/pages/_app.js": 1,
+      "static/5oZrkjGX5bgbpwI35Ccur/pages/_error.js": 2,
+      "static/5oZrkjGX5bgbpwI35Ccur/pages/_document.js": 3,
+      "static/nHhHV3KRkHhcVpBDxrwlw/pages/index.js": 4,
+      "static/nHhHV3KRkHhcVpBDxrwlw/pages/_app.js": 5,
+      "static/nHhHV3KRkHhcVpBDxrwlw/pages/_error.js": 6,
+      "static/nHhHV3KRkHhcVpBDxrwlw/pages/_document.js": 7
+    },
+    "bySource": {},
+    "usedIds": [
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}
